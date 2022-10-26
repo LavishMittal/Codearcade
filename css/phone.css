@@ -1,0 +1,118 @@
+.outer {
+    width: auto;
+}
+
+.subcontainer1 {
+    /* width: 2rem; */
+    display: flex;
+    font-weight: 330;
+    font-size: x-small;
+}
+.subcontainer2 {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    display: none;
+}
+
+.row-1 {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    /* font-size:1px; */
+}
+
+.row-2 {
+    margin-top: 2rem;
+    font-size:1.6em;
+}
+
+.logo img {
+    /* display: hidden; */
+    max-width: 80%;
+
+}
+
+.tools a {
+    font-size: 11px;
+    /* margin-left: 2%; */
+    /* margin-right: 2%; */
+    padding: 2px 2px 2px 1.5px;
+
+}
+
+.contact a {
+    display: none;
+}
+
+#aboutus {
+    display: flex;
+    flex-direction: column;
+    height: 1150px;
+    justify-content: space-evenly;
+}
+
+#aboutus img {
+    display: block;
+    float: none;
+    margin-top: 150px;
+    width: 100%;
+}
+
+
+.content {
+    float: left;
+    width: 80%;
+    margin: auto;
+
+}
+
+.service{
+    height: auto ;
+}
+
+.service p{
+    width: 100%;
+}
+
+.service_container2{
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 10rem; */
+}
+
+.webD a{
+    font-size: 15px;
+}
+
+.iconbox{
+    padding-bottom: 3rem;
+    width: 13rem;
+}
+
+.btn{
+    margin-top: 2rem;
+}
+
+#why img {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.content2{
+    width: 80%;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center ;
+}
+
+#contact{
+    flex-direction: column;
+    height: 1100px;
+}
+
+.contact2{
+    width: 57%;
+    height: initial;
+
+}

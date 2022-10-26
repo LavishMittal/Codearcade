@@ -1,0 +1,520 @@
+body {
+    margin: 0px;
+}
+
+/*<------------ Header Start --------------> */
+
+.outer {
+    background-color: #ffc700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subcontainer1 {
+    margin-left: 8px;
+}
+
+.subcontainer2 {
+    margin-right: 8px;
+}
+
+.row-1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.row-2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.outer a {
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: small;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+
+}
+
+/*<------------ Header End --------------> */
+
+/*<------------ Navbar Start --------------> */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.logo img:hover {
+    cursor: pointer;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ffc700;
+}
+
+.contact a {
+    color: rgba(255, 166, 0, 0.80);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 4px solid rgba(255, 166, 0, 0.80);
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+.contact a:hover {
+    color: rgb(172, 9, 9);
+    border-color: rgb(172, 9, 9);
+}
+/* ******************************************** */
+.ser {
+    display: none;
+}
+
+.navbar .serv:hover .ser{
+    display: ruby;
+    /* position: absolute; */
+    margin-top: 150px;
+    margin-left: -150px; 
+}
+/* ******************************************** */
+
+
+
+/*<------------ Navbar End--------------> */
+
+/* <!--------------- HERO SECTION STARTS -------------> */
+
+.hero{
+    height: 650px;
+}
+
+.hero h1,
+h2 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.hero h1 {
+    color: #ffc700;
+    font-size: 3rem;
+    font-weight: 3rem;
+    font-family: "Raleway", sans-serif;
+    padding-top: 2in;
+}
+
+.hero h2 {
+    color: white;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.hero_subsection {
+    margin-top: 0px;
+    padding-top: 190px;
+}
+
+.hero::before {
+    background: url("../asset/hero2-bg.jpg") no-repeat center center/cover;
+    opacity: 0.8;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    z-index: -1;
+
+}
+
+/* <!--------------- ABOUT SECTION STARTS -------------> */
+
+.about {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.about img {
+    width: 5.5in;
+    height: 4.5in;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    border-radius: 4px;
+}
+
+.content {
+    float: left;
+    width: 500px;
+    margin: 0px 110px;
+}
+
+.content h3 {
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 10px;
+    color: #ffc700;
+    text-decoration: underline;
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .content ul li {
+    padding: 0 0 8px 26px;
+    position: relative;
+}
+
+.about .content ul i {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    color: #ffc700;
+}
+
+.about .content p:last-child {
+    margin-bottom: 0;
+}
+
+.content p {
+    font-size: larger;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+
+.content li {
+    font-size: medium;
+    font-weight: 450;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--------------------------------------------------------------
+
+/*<<------------------------SERVICE SECTION START------------->>*/
+
+.service {
+    background-color: rgba(128, 128, 128, 0.055);
+    width: 100%;
+    height: 600px;
+    margin: auto;
+}
+
+.service_container1 {
+    width: 83%;
+    height: 100px;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.service_container1 h2 {
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.service_container1 p {
+    font-size: larger;
+    width: 731px;
+    text-align: justify;
+    font-family: system-ui;
+}
+
+.service_container2 {
+    display: flex;
+    width: 83%;
+    height: 300px;
+    margin: auto;
+    padding-top: 60px;
+    justify-content: space-between;
+}
+
+.iconbox {
+    display: flex;
+    width: 30%;
+    height: 250px;
+    text-decoration: none;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.webD a {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: 'Kanit', sans-serif;
+}
+
+.icon img {
+    width: 33%;
+    border-radius: 2px;
+
+}
+
+.btn a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: block;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    margin: auto;
+    color: white;
+    border-radius: 30px;
+    background-color: black;
+    width: 100px;
+}
+
+.icon img:hover{
+    cursor: pointer;
+}
+
+.iconbox a:hover{
+    color: #ffc700;
+}
+
+.btn a:hover{
+    color: #ffc700;
+}
+
+/* <---------------------HERO2 SECTION START-------------------------> */
+
+.hero2 h1,
+h2 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.hero2 h1 {
+    color: #ffc700;
+    font-size: 3rem;
+    font-weight: 3rem;
+    font-family: "Raleway", sans-serif;
+    padding-top: 2in;
+}
+
+.hero2 h2 {
+    color: white;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.hero_subsection2 {
+    margin-top: 0px;
+    padding-top: 190px;
+}
+
+.hero2::before {
+    background: url("../asset/cta-bg.jpg") no-repeat center center/cover;
+    opacity: 0.8;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    z-index: -1;
+
+}
+
+/* <---------------------HERO2 SECTION ENDS-------------------------> */
+
+/* <---------------------WHYUS SECTION START-------------------------> */
+
+
+.whyus {
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.feature img {
+    width: 5.5in;
+    height: 4.5in;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    border-radius: 4px;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 10px;
+    width: 40%;
+}
+
+.content2 h2{
+    text-align: left;
+    padding-left: 65px;
+    font-family: "Raleway", sans-serif;
+    font-size: xx-large;
+}
+
+.features h4 {
+    padding-top: 3.5px;
+    padding-bottom: 6px;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 5px 0 10px 60px;
+    font-family: "Raleway", sans-serif;
+    color: #ffc700;
+}
+
+
+.features p {
+    font-size: 15px;
+    color: #848484;
+    margin-left: 60px;
+    font-family: "Raleway", sans-serif;
+}
+
+/* <!--------------- CONTACT US SECTION STARTS -------------> */
+
+.contactus {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.contact2 {
+    width: 20%;
+    height: 300px;
+    margin: auto;
+}
+
+#handles h3 {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    padding-left: 5px;
+}
+
+#handles p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 5px;
+    font-weight: 100;
+}
+
+#usefullinks h4{
+    border: none;
+    color: white;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#usefullinks a{
+    text-decoration: none;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#usefullinks ul{
+    list-style: none;
+    padding-left: inherit;
+   
+}
+
+#usefullinks ul i{
+    color: #ffc700;
+    padding-right: 2px;
+}
+
+#usefullinks li{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
+}
+
+#ourservices h4{
+    border: none;
+    color: white;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#ourservices a{
+    text-decoration: none;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#ourservices ul{
+    list-style: none;
+    padding-left: inherit;
+   
+}
+
+#ourservices ul i{
+    color: #ffc700;
+    padding-right: 2px;
+}
+
+#ourservices li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.contact2 h4{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact2 p{
+    color: #ffc700;
+    font-family: cursive;
+}
+
+.contact2 input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 6px;
+    width: -webkit-fill-available;
+    border-radius: 10px;
+    font-family: monospace;
+    border: 2px solid white;
+}
+
+.contact2 .submit{
+    background-color: #ffc700;
+    color: white;
+    font-size: large;
+}
+
+.contact2 .submit:hover{
+    cursor: pointer;
+}
